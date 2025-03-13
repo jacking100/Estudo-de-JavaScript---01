@@ -1,0 +1,9 @@
+<meta charset= "UTF-8">
+<script>
+    const precodoproduto = Number(prompt("Preço do Produto:"))
+    alert("Opções de Pagamento: \n1 - à vista com 10% de desconto \n2 - Ou 3x sem juros")
+    const desconto =precodoproduto - (precodoproduto * 0.10) 
+    const parcela = precodoproduto / 3
+    alert(`Preço do Produto: R$ ${precodoproduto.toFixed(2)} \n1 - à vista com 10% de desconto R$ ${desconto.toFixed(2)}\n2 - Ou 3x sem juros R$ ${parcela.toFixed(2)}`)
+
+</script>
